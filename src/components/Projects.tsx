@@ -135,6 +135,55 @@ export default function Projects() {
           </p>
         </div>
       </div>
+      {/* Panel 3 — Medicines */}
+      <div className="group relative flex min-h-[85vh] flex-col justify-end overflow-hidden border-t border-line">
+        <div className="absolute inset-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/projects/healthmate-medicines.png"
+            alt="HealthMate medicines page tracking doses taken, upcoming, and missed"
+            className="h-full w-full object-cover object-top opacity-60 transition-opacity duration-700 group-hover:opacity-85"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/80 to-canvas/30" />
+        </div>
+
+        <div className="halftone-scan pointer-events-none absolute inset-0" />
+
+        <div className="relative flex flex-col gap-4 px-6 pb-16 sm:px-10">
+          <span className="font-mono-ui text-xs uppercase tracking-widest text-gold">
+            Medicines
+          </span>
+          <p className="max-w-lg font-display text-2xl leading-snug text-ink sm:text-3xl">
+            Every dose tracked — taken, upcoming, or missed — with one tap to
+            mark it done.
+          </p>
+        </div>
+      </div>
+
+      {/* Panel 4 — Health Overview */}
+      <div className="group relative flex min-h-[85vh] flex-col justify-end overflow-hidden border-t border-line">
+        <div className="absolute inset-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/projects/healthmate-overview.png"
+            alt="HealthMate health overview showing today's readings and a 7-day health score trend"
+            className="h-full w-full object-cover object-top opacity-60 transition-opacity duration-700 group-hover:opacity-85"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-canvas via-canvas/80 to-canvas/30" />
+        </div>
+
+        <div className="halftone-scan pointer-events-none absolute inset-0" />
+
+        <div className="relative flex flex-col gap-4 px-6 pb-16 sm:px-10">
+          <span className="font-mono-ui text-xs uppercase tracking-widest text-gold">
+            Health Overview
+          </span>
+          <p className="max-w-lg font-display text-2xl leading-snug text-ink sm:text-3xl">
+            Steps, sleep, heart rate, hydration, activity, and breathing —
+            logged daily, plotted into a 7-day trend.
+          </p>
+        </div>
+      </div>
     </section>
   );
 }

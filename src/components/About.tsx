@@ -33,14 +33,10 @@ export default function About() {
         transition={{ duration: 0.6, delay: 0.2 }}
         className="mt-10 max-w-2xl leading-relaxed text-ink-muted"
       >
-        I&apos;m a final-year Computer Science undergrad at RD Engineering
-        College, actively looking for frontend developer internship and
-        new-grad opportunities. I&apos;ve solved 200+ DSA problems (Trees,
-        DP, and Recursion are where I&apos;m strongest), built and shipped
-        HealthMate solo from schema to deployment, competed in a college
-        hackathon, and I&apos;m a core member of my college&apos;s coding
-        club. I also hold an NPTEL certification in Java and an Oracle
-        certification in Generative AI.
+        I&apos;m a final-year Computer Science undergrad, actively looking for
+        frontend developer internship and new-grad opportunities. I like
+        picking apart how a product actually works end-to-end — not just the
+        UI, but the schema underneath it and the pipeline that ships it.
       </motion.p>
 
       <motion.div
